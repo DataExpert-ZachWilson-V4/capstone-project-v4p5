@@ -3,10 +3,9 @@
 # Temperature Change Analysis Capstone Project
 
 ## Problem We Want to Solve
+The Weather Tracking Project involves the creation of a robust data infrastructure capable of collecting, storing, and analyzing real-time weather data from various sources.
 Our group is looking to show the changes in the temperature in the United States over the past 100 years. With this information we hope to show potential signs of climate change. This helps to dive deeper into the climate changes for each state. 
 
 ## Data Sources:
 The API's are available for Climate Data Sets from the National Centers for Environmental Information. This has last 100 years weather information across United States. 
 For daily data, we want to consume data from daily weather data API's. 
-
-![alt text](image.png)
