@@ -9,3 +9,6 @@ Our group is looking to show the changes in the temperature in the United States
 ## Data Sources:
 The API's are available for Climate Data Sets from the National Centers for Environmental Information. This has last 100 years weather information across United States. 
 For daily data, we want to consume data from daily weather data API's. 
+
+## Conceptual Data Model:
+![image](https://github.com/DataExpert-ZachWilson-V4/capstone-project-v4p5/assets/10713255/ef6cf9e4-cef8-4ab2-83d8-db5f9311c80d)
