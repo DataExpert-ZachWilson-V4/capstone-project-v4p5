@@ -76,5 +76,11 @@ User_SCD - This SCD table tracks the number of followers the user has. If the us
 ## Data Flow: 
 ![data flow](https://github.com/DataExpert-ZachWilson-V4/capstone-project-v4p5/blob/capstone_vaishnavi5054/blob/Screenshot%202024-06-30%20at%2016.46.32.png)
 
+Note:
+This is just a sample data and do not depict any realtime conclusions. This is not intended to mislead anyone. 
+
+## Dashboard results:
+
+![Likes_retweets_by_leader](https://github.com/DataExpert-ZachWilson-V4/capstone-project-v4p5/blob/capstone_vaishnavi5054/blob/Likes%2Cretweets%2Ccomments_by_leader.png)
 
 
