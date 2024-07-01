@@ -69,9 +69,11 @@ The above data set helps to achieve the following:
  - Most popular tweet. 
  - Number of tweets based on sentiment.
 Below are the tables that have been created from the data set. 
-Tweets - This is the master dataset that contains all the above columns extracted from twitter v2 API and the date on which the data is extracted. The source for this table are the .txt files that have been extracted. 
-Below are the SCD tables that have been created. The idea of creating SCD tables is trying to depict the original data set and how the SCD tables add more value and support reporting historically. It helps to give and idea of the data over a period of time. 
-User_SCD - This SCD table tracks the number of followers the user has. If the user is active regularly,the possibility of increase in followers everyday is high. Because we are not tracking the user activity regukarly, we can only track the activity based on the tweets, the user has posted. 
+Tweets: This is the master dataset that contains all the above columns extracted from twitter v2 API and the date on which the data is extracted. The source for this table are the .txt files that have been extracted. 
+
+Below are the SCD tables that have been created. The idea of creating SCD tables is trying to depict the original data engineering space and how the SCD tables add more value and support reporting historically. It helps to give and idea of the data over a period of time. 
+
+User_SCD: This SCD table tracks the number of followers the user has. If the user is active regularly,the possibility of increase in followers everyday is high. Because we are not tracking the user activity regukarly, we can only track the activity based on the tweets, the user has posted. 
 
 ## Data Flow: 
 ![data flow](https://github.com/DataExpert-ZachWilson-V4/capstone-project-v4p5/blob/capstone_vaishnavi5054/blob/Screenshot%202024-06-30%20at%2016.46.32.png)
@@ -81,7 +83,7 @@ This is just a sample data and do not depict any realtime conclusions. This is n
 
 ## Dashboard results:
 
-# Likes_retweets_by_leader:
+### Likes_retweets_by_leader:
 ![Likes_retweets_by_leader](https://github.com/DataExpert-ZachWilson-V4/capstone-project-v4p5/blob/capstone_vaishnavi5054/blob/Likes%2Cretweets%2Ccomments_by_leader.png)
 
 # Tweets with more than million likes, retweets per each leader along with the tweets sentiment
