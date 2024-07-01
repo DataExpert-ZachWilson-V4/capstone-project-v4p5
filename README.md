@@ -112,4 +112,5 @@ Expand the search and extract data from various sources and not solely rely on t
 References: 
 Used spark-standalone project (existing opensource project) to bring spark up and running using docker
 
-Acknowledgement: Huge thanks to our instructor Zach Wilson for teaching us awesome things that can be done in DE space.
+## Acknowledgement: 
+Huge thanks to our instructor Zach Wilson for teaching awesome things that can be done in DE space.
