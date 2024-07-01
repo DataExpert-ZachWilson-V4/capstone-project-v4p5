@@ -81,6 +81,13 @@ This is just a sample data and do not depict any realtime conclusions. This is n
 
 ## Dashboard results:
 
+# Likes_retweets_by_leader:
 ![Likes_retweets_by_leader](https://github.com/DataExpert-ZachWilson-V4/capstone-project-v4p5/blob/capstone_vaishnavi5054/blob/Likes%2Cretweets%2Ccomments_by_leader.png)
 
+# Tweets with more than million likes, retweets per each leader along with the tweets sentiment
 
+![pic2](https://github.com/DataExpert-ZachWilson-V4/capstone-project-v4p5/blob/capstone_vaishnavi5054/blob/tweets_with_more_than_million_likes_retweets_by_each_leader_along_with_sentiment.png)
+
+# Total sentiment, likes, retweets for each leader:
+
+![pic3](https://github.com/DataExpert-ZachWilson-V4/capstone-project-v4p5/blob/capstone_vaishnavi5054/blob/Total_sentiment_for_each_leader.png)
