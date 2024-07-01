@@ -73,5 +73,8 @@ Tweets - This is the master dataset that contains all the above columns extracte
 Below are the SCD tables that have been created. The idea of creating SCD tables is trying to depict the original data set and how the SCD tables add more value and support reporting historically. It helps to give and idea of the data over a period of time. 
 User_SCD - This SCD table tracks the number of followers the user has. If the user is active regularly,the possibility of increase in followers everyday is high. Because we are not tracking the user activity regukarly, we can only track the activity based on the tweets, the user has posted. 
 
+## Data Flow: 
+![data flow](https://github.com/DataExpert-ZachWilson-V4/capstone-project-v4p5/blob/capstone_vaishnavi5054/blob/Screenshot%202024-06-30%20at%2016.46.32.png)
+
 
 
