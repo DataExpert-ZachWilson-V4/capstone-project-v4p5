@@ -68,7 +68,9 @@ The above data set helps to achieve the following:
  - Most engaged user.
  - Most popular tweet. 
  - Number of tweets based on sentiment.
+
 Below are the tables that have been created from the data set. 
+
 Tweets: This is the master dataset that contains all the above columns extracted from twitter v2 API and the date on which the data is extracted. The source for this table are the .txt files that have been extracted. 
 
 Below are the SCD tables that have been created. The idea of creating SCD tables is trying to depict the original data engineering space and how the SCD tables add more value and support reporting historically. It helps to give and idea of the data over a period of time. 
@@ -86,10 +88,10 @@ This is just a sample data and do not depict any realtime conclusions. This is n
 ### Likes_retweets_by_leader:
 ![Likes_retweets_by_leader](https://github.com/DataExpert-ZachWilson-V4/capstone-project-v4p5/blob/capstone_vaishnavi5054/blob/Likes%2Cretweets%2Ccomments_by_leader.png)
 
-# Tweets with more than million likes, retweets per each leader along with the tweets sentiment
+### Tweets with more than million likes, retweets per each leader along with the tweets sentiment
 
 ![pic2](https://github.com/DataExpert-ZachWilson-V4/capstone-project-v4p5/blob/capstone_vaishnavi5054/blob/tweets_with_more_than_million_likes_retweets_by_each_leader_along_with_sentiment.png)
 
-# Total sentiment, likes, retweets for each leader:
+### Total sentiment, likes, retweets for each leader:
 
 ![pic3](https://github.com/DataExpert-ZachWilson-V4/capstone-project-v4p5/blob/capstone_vaishnavi5054/blob/Total_sentiment_for_each_leader.png)
