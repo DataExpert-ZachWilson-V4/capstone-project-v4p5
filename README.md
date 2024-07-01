@@ -78,11 +78,23 @@ Below are the SCD tables that have been created. The idea of creating SCD tables
 
 User_SCD: This SCD table tracks the number of followers the user has. If the user is active regularly,the possibility of increase in followers everyday is high. Because we are not tracking the user activity regukarly, we can only track the activity based on the tweets, the user has posted. 
 
+## Limitations: 
+The Twitter V2 API is a paid version and if we want to extract more tweets, the cost is really high. 
+For the basic category, it has a limitation on how many tweets can be extracted. 
+
+
 ## Data Flow: 
 ![data flow](https://github.com/DataExpert-ZachWilson-V4/capstone-project-v4p5/blob/capstone_vaishnavi5054/blob/Screenshot%202024-06-30%20at%2016.46.32.png)
 
 Note:
 This is just a sample data and do not depict any realtime conclusions. This is not intended to mislead anyone. 
+
+## Lessons Learnt: 
+It is little bit more time taking than expected to process .txt files to csv or load it into a dataframe.
+Especially with the huge volume of unprocessed, noisy data. Some fields have null values and there are extra spaces in between the fields. It was a little tricky to extract correct fileds and their values. 
+
+## Next Steps:
+Expand the search and extract data from various sources and not solely rely on twitter. Right now, my project searches for the keywords in the tweet text and hashtags. Expand it in a more realtime fashion and incorporate machine learning to train with more data to get accurate results.  
 
 ## Dashboard results:
 
@@ -96,3 +108,8 @@ This is just a sample data and do not depict any realtime conclusions. This is n
 ### Total sentiment, likes, retweets for each leader:
 
 ![pic3](https://github.com/DataExpert-ZachWilson-V4/capstone-project-v4p5/blob/capstone_vaishnavi5054/blob/Total_sentiment_for_each_leader.png)
+
+References: 
+Used spark-standalone project (existing opensource project) to bring spark up and running using docker
+
+Acknowledgement: Huge thanks to our instructor Zach Wilson for teaching us awesome things that can be done in DE space.
